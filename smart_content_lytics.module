@@ -1,0 +1,20 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function smart_content_lytics_help($route_name, RouteMatchInterface $route_match)
+{
+  switch ($route_name) {
+      // Main module help for the smart_content_lytics module.
+    case 'help.page.smart_content_lytics':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Connector module for Lytics') . '</p>';
+      return $output;
+
+    default:
+  }
+}

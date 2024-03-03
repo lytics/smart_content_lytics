@@ -1,0 +1,23 @@
+{
+    "name": "drupal/smart_content_lytics",
+    "type": "drupal-module",
+    "description": "Provides Lytics integration for Smart Content.",
+    "keywords": [
+        "Drupal"
+    ],
+    "license": "GPL-2.0+",
+    "homepage": "https://www.drupal.org/project/smart_content_lytics",
+    "authors": [
+        {
+            "name": "Mark Hayden (mark.hayden)",
+            "homepage": "https://www.drupal.org/u/mark.hayden",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/smart_content_lytics",
+        "source": "http://cgit.drupalcode.org/smart_content_lytics"
+    },
+    "require": {}
+}

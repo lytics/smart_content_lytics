@@ -1,0 +1,8 @@
+condition.lytics:
+  header: true
+  version: 1.x
+  js:
+    js/condition.lytics.js: {}
+  dependencies:
+    - smart_content/storage
+    - smart_content/condition_type.standard

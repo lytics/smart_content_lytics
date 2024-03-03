@@ -1,0 +1,10 @@
+name: "Smart Content Lytics"
+type: module
+description: "Provides Lytics integration for Smart Content."
+core_version_requirement: ^10
+package: "Smart Content"
+dependencies:
+  - smart_content:smart_content
+  - lytics:lytics
+version: "1.0.0"
+project: "smart_content_lytics"
