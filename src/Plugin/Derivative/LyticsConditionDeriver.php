@@ -67,7 +67,6 @@ class LyticsConditionDeriver extends DeriverBase implements ContainerDeriverInte
   {
     $this->derivatives = [];
     $lyticsFields = $this->getAvailableSchemaAttributes();
-    // ksort($lyticsFields);
     uasort($lyticsFields, [static::class, 'sortByLabel']);
     foreach ($lyticsFields as $key => $lyticsField) {
       $this->derivatives[$key] = $lyticsField + $base_plugin_definition;
@@ -147,6 +146,6 @@ class LyticsConditionDeriver extends DeriverBase implements ContainerDeriverInte
       'map[string]string' => 'key_value',
     ];
 
-    return $map[strtolower($type)] ?? 'array_textfield';
+    return $map[strtolower($type)] ?? 'textfield';
   }
 }
