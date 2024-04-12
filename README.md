@@ -8,6 +8,12 @@ The Smart Content Lytics module integrates the Lytics Personalization Engine (vi
 1. Download and enable the Smart Content Lytics module.
 2. Verify that you can access allowlisted Lytics attributes within Smart Content segment definition.
 
+## Debugging
+1. Debug mode can be enabled by setting the localStorage value as outlined below. As a result more comprehensive logs will be surfaced in the console:
+  ```
+  localStorage.lytics_smart_content_debug = true
+  ```
+
 ## Dependencies
 This module depends on the following Drupal core modules:
 - drupal/lytics
